@@ -1,0 +1,37 @@
+body {
+    font-family: sans-serif;
+}
+
+table {
+    width: 100%;
+    /* Ширина таблицы */
+    background: rgb(101, 99, 99);
+    /* Цвет фона таблицы */
+    color: rgb(8, 1, 1);
+    /* Цвет текста */
+    border-spacing: 1px;
+    /* Расстояние между ячейками */
+}
+
+
+th {
+    background: rgb(237, 233, 233);
+    /* Цвет фона ячеек */
+    padding: 10px;
+    /* Поля вокруг текста */
+    width: 50px;
+}
+
+
+td {
+    background: rgb(249, 249, 249);
+    /* Цвет фона ячеек */
+    padding: 10px;
+    /* Поля вокруг текста */
+    width: 50px;
+}
+
+
+.comparativeTable {
+    margin-top: 200px;
+}
